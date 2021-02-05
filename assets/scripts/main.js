@@ -25,6 +25,7 @@ function syncVolume(volume) {
         document.getElementById("honk-btn").disabled = false;
     }
     else {
+        volumeImage.src = "./assets/media/icons/volume-level-0.svg"
         document.getElementById("honk-btn").disabled = true;
     }
 };
